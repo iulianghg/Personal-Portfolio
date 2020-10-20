@@ -7,35 +7,32 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Andrei Ilici",
+  title: "Hi all, I'm Andrei",
+  subTitle: emoji("An aspiring Data Engineering, experienced in creating Python application deployed on AWS infrastucture."),
+  resumeLink: "https://drive.google.com/file/d/1nsmFetvImOfeZmGpWrfE02AAm1WFR4Gn/view"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/Andrei-Ilici",
+  linkedin: "https://www.linkedin.com/in/andrei-ilici/",
+  gmail: "andrei.ilici29@gmail.com",
+  stackoverflow: "https://stackoverflow.com/users/6199864/andrei-ilici"
   // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I do",
+  subTitle: "",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Clean large datasets and process data for analysing"),
+    emoji("⚡ Start-to-end AWS infrastructure build"),
+    emoji("⚡ Interested in Data Visualisation")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -43,56 +40,48 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "SQL databases",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Snowflake",
+      fontAwesomeClassname: "far fa-snowflake"
+    },
+    {
+      skillName: "MATLAB",
+      fontAwesomeClassname: "fas fa-mountain"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "fas fa-copyright"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Testing",
+      fontAwesomeClassname: "fas fa-flask"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "Jira",
+      fontAwesomeClassname: "fab fa-jira"
     }
   ]
 };
@@ -103,24 +92,24 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Loughborough University, United Kingdom",
+      logo: require("./assets/images/Lborologo.png"),
+      subHeader: "BEng Aeronautical Engineering (Hons)",
+      duration: "October 2017 - July 2020",
+      desc: "Aeronautical Engineering department (Peer Mentor), Romanian Society (Secretary), LSU Action (Volunteer)",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Final year project ('Performance analysys of Saab 340B') research using MATLAB",
+        "Analysed data set of various car sensors in MATLAB and proposed alghoritm improvements"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      schoolName: "Bogdan Petriceicu Hasdeu National College, Buzau, Romania",
+      logo: require("./assets/images/logoHasdeu.png"),
+      subHeader: "Mathematics and Computer Science with Further English",
+      duration: "September 2013 - May 2017",
+      desc: "Romanian Baccalaureate (overall 9.13 out of 10) - Romanian language, Mathematics, Physics",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Participated in a 2-week international exchange in the Netherlands",
       ]
     }
   ]
@@ -185,7 +174,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "Andrei-Ilici", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -193,16 +182,16 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Organisations",
+  subtitle: "Participant in a 12-week Data Engineering programme organised by Generation and Infinity Works",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/Generation.jpg"),
+      link: "https://uk.generation.org/birmingham/data-engineering/"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/InfinityWorks.jpg"),
+      link: "https://infinityworks.com/"
     }
   ]
 };
@@ -246,50 +235,9 @@ const achievementSection = {
 
 // Blogs Section
 
-const blogSection = {
-
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ]
-};
-
 // Talks Sections
 
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ]
-};
-
 // Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
-};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -300,9 +248,4 @@ const contactInfo = {
 
 //Twitter Section
 
-const twitterDetails = {
-
-  userName : "twitter"//Replace "twitter" with your twitter username without @
-
-};
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, contactInfo};
