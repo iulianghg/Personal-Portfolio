@@ -241,9 +241,9 @@ const achievementSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Want to discuss a career opportunity or just want to say hi? My Inbox is open.",
+  number: "+44-7384-745-281",
+  email_address: "andrei.ilici29@gmail.com"
 };
 
 //Twitter Section
