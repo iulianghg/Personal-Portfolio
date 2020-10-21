@@ -38,11 +38,14 @@ function Header() {
             <a href="#education">Education</a>
           </li>
           <li>
+            <a href="#achievements">Projects</a>
+          </li>
+          <li>
             <a href="#opensource">Open Source</a>
           </li>
-          {/* <li>
-            <a href="#achievements">Achievements</a>
-          </li> */}
+          <li>
+            <a href="#projects">Organisations</a>
+          </li>
           <li>
             <a href="#contact">Contact Me</a>
           </li>
