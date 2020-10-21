@@ -68,6 +68,14 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     },
     {
+      skillName: "Serverless",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
       skillName: "Testing",
       fontAwesomeClassname: "fas fa-flask"
     },
