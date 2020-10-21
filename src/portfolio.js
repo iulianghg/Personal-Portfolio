@@ -109,7 +109,7 @@ const educationInfo = {
       duration: "September 2013 - May 2017",
       desc: "Romanian Baccalaureate (overall 9.13 out of 10) - Romanian language, Mathematics, Physics",
       descBullets: [
-        "Participated in a 2-week international exchange in the Netherlands",
+        "Participated in a 2-week international exchange in the Netherlands ",
       ]
     }
   ]
