@@ -1,6 +1,6 @@
 {
-  "homepage": "https://andrei-ilici.github.io/portfolio",
-  "name": "www.andrei-ilici.me",
+  "homepage": "andrei-ilici.me",
+  "name": "andrei-ilici.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
