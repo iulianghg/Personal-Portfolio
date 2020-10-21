@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e36ac7866c2be0ef8d46e07e4314273",
+    "revision": "2f9c311cb6ca7a154966a60ba1784396",
     "url": "/andrei-ilici.github.io/portfolio/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andrei-ilici.github.io/portfolio/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "0579f7fd7a80ce12634f",
+    "revision": "8e10a00726d988ffc287",
     "url": "/andrei-ilici.github.io/portfolio/static/css/main.b5189f04.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/andrei-ilici.github.io/portfolio/static/js/4.55326aa0.chunk.js"
   },
   {
-    "revision": "0579f7fd7a80ce12634f",
-    "url": "/andrei-ilici.github.io/portfolio/static/js/main.02c07aa2.chunk.js"
+    "revision": "8e10a00726d988ffc287",
+    "url": "/andrei-ilici.github.io/portfolio/static/js/main.81fa3b9c.chunk.js"
   },
   {
     "revision": "b576b679f61e5e2554c0",
