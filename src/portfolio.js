@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Andrei Ilici",
   title: "Hi all, I'm Andrei",
-  subTitle: emoji("An aspiring Data Engineering, experienced in creating Python application deployed on AWS infrastucture."),
+  subTitle: emoji("Aspiring Data Engineer, experienced in creating Python application deployed on AWS. Problem solver interested in answering business questions using data."),
   resumeLink: "https://drive.google.com/file/d/1nsmFetvImOfeZmGpWrfE02AAm1WFR4Gn/view"
 };
 
@@ -30,7 +30,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "",
   skills: [
-    emoji("⚡ Clean large datasets and process data for analysing"),
+    emoji("⚡ Clean large datasets and process data to analyse"),
     emoji("⚡ Start-to-end AWS infrastructure build"),
     emoji("⚡ Interested in Data Visualisation")
   ],
@@ -106,12 +106,12 @@ const educationInfo = {
       duration: "October 2017 - July 2020",
       desc: "Aeronautical Engineering department (Peer Mentor), Romanian Society (Secretary), LSU Action (Volunteer)",
       descBullets: [
-        "Final year project ('Performance analysys of Saab 340B') research using MATLAB",
-        "Analysed data set of various car sensors in MATLAB and proposed alghoritm improvements"
+        "Final year project ('Performance analysys of Saab 340B') research conducted using MATLAB",
+        "Evaluated data set of various car sensors in MATLAB and proposed alghoritm improvements"
       ]
     },
     {
-      schoolName: "Bogdan Petriceicu Hasdeu National College, Buzau, Romania",
+      schoolName: "Bogdan Petriceicu Hasdeu National College, Romania",
       logo: require("./assets/images/logoHasdeu.png"),
       subHeader: "Mathematics and Computer Science with Further English",
       duration: "September 2013 - May 2017",
@@ -209,12 +209,12 @@ const bigProjects = {
 const achievementSection = {
 
   title: emoji("Main Projects and Certifications "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Projects, achievements and some cool stuff that I have done !",
 
   achievementsCards: [
     {
       title: "AWS Pipeline",
-      subtitle: "Built the CI/CD infrastructure of a cafe chain ingesting and processing more than 5000 orders a day.",
+      subtitle: "Team project. Built ETL infrastructure for a cafe chain ingesting 5000 orders a day via S3. ETL Lambdas processes and sends it using SQS messages to Redshift database for storage. Business analysis conducted with Quicksight.",
       image: require("./assets/images/pipeline.png"),
       footerLink: [
         { name: "Github repo", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
@@ -223,21 +223,21 @@ const achievementSection = {
       ]
     },
     {
-      title: "Bartender",
-      subtitle: "Local GUI app developed using Python and Tkinter that acts as a bartender. Data stored in mySQL database.",
+      title: "iBrew",
+      subtitle: "Local Bartender GUI app developed using Python and Tkinter. Built on OOP concepts. Data stored in mySQL database. Matplotlib module graphs consumer purchase behaviour.",
       image: require("./assets/images/bar.png"),
-      footerLink: [{ name: "Github repo", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      footerLink: [{ name: "Github repo", url: "https://github.com/Andrei-Ilici/iBrew" }]
     },
 
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   footerLink: [
-    //     { name: "Certification", url: "" },
-    //     { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-    //   ]
-    // }
+    {
+      title: "Historic airplane crash data ",
+      subtitle: "Evaluates airplane crashes around the world starting 1908. Matplotlib, Pandas and Seaborn modules used for data processing and visualisation.",
+      image: require("./assets/images/crashmap.png"),
+      footerLink: [
+        // { name: "Certification", url: "" },
+        { name: "Jupyter notebook", url: "https://www.kaggle.com/cgurkan/airplane-crash-data-since-1908" }
+      ]
+    }
   ]
 };
 
