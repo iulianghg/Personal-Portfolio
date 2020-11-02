@@ -112,7 +112,7 @@ const educationInfo = {
     },
     {
       schoolName: "Bogdan Petriceicu Hasdeu National College, Romania",
-      logo: require("./assets/images/logoHasdeu.png"),
+      logo: require("./assets/images/logoHasdeu.jpg"),
       subHeader: "Mathematics and Computer Science with Further English",
       duration: "September 2013 - May 2017",
       desc: "Romanian Baccalaureate (overall 9.13 out of 10) - Romanian language, Mathematics, Physics",
@@ -152,7 +152,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      // companylogo: require("./assets/images/facebookLogo.png"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -163,7 +163,7 @@ const workExperiences = {
     {
       role: "Front-End Developer",
       company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      // companylogo: require("./assets/images/quoraLogo.png"),
       date: "May 2017 – May 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
@@ -215,10 +215,10 @@ const achievementSection = {
     {
       title: "AWS Pipeline",
       subtitle: "Team project. Built ETL infrastructure for a cafe chain ingesting 5000 orders a day via S3. ETL Lambdas processes and sends it using SQS messages to Redshift database for storage. Business analysis conducted with Quicksight.",
-      image: require("./assets/images/pipeline.png"),
+      image: require("./assets/images/pipeline.jpg"),
       footerLink: [
-        { name: "Github repo", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Blog post", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+        { name: "Github repo", url: "https://github.com/data-engineering-bir-1/team-3-project" },
+        { name: "Website", url: "https://infinityque0.wixsite.com/project" },
         // { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
     },
@@ -235,7 +235,7 @@ const achievementSection = {
       image: require("./assets/images/crashmap.png"),
       footerLink: [
         // { name: "Certification", url: "" },
-        { name: "Jupyter notebook", url: "https://www.kaggle.com/cgurkan/airplane-crash-data-since-1908" }
+        { name: "Jupyter notebook (soon)", url: "https://www.kaggle.com/cgurkan/airplane-crash-data-since-1908" }
       ]
     }
   ]
