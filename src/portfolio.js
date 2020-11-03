@@ -209,12 +209,12 @@ const bigProjects = {
 const achievementSection = {
 
   title: emoji("Main Projects and Certifications "),
-  subtitle: "Projects, achievements and some cool stuff that I have done !",
+  subtitle: "Projects, achievements and some stuff that I have done !",
 
   achievementsCards: [
     {
       title: "AWS Pipeline",
-      subtitle: "Team project. Built ETL infrastructure for a cafe chain ingesting 5000 orders a day via S3. ETL Lambdas processes and sends it using SQS messages to Redshift database for storage. Business analysis conducted with Quicksight.",
+      subtitle: "Team project. Built ETL infrastructure for a cafe chain ingesting 150.000 orders a day via S3 and Kinesis. ETL Lambdas processes and sends it using SQS messages to Redshift database for storage. Business analysis conducted with Quicksight. Monitoring managed with Cloudwatch and Grafana.",
       image: require("./assets/images/pipeline.jpg"),
       footerLink: [
         { name: "Github repo", url: "https://github.com/data-engineering-bir-1/team-3-project" },

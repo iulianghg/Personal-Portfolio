@@ -4,8 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-/.github
-/.netlify
+.github/
+.netlify/
 /Dockerfile
 
 # testing
@@ -23,5 +23,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/.netlify
-.netlify
