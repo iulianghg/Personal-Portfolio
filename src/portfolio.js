@@ -40,7 +40,7 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Python",
+      skillName: "Python", 
       fontAwesomeClassname: "fab fa-python"
     },
     {
